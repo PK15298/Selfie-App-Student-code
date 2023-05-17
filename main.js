@@ -13,7 +13,7 @@ var content = event.results[0][0].transcript;
 document.getElementById("textbox").innerHTML = content;
 
 console.log(content);
-if (content == "Take my Selfie") {
+if (content == "take my Selfie") {
     console.log("Taking Selfie...");
     speak();
 }   
